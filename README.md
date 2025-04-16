@@ -1,28 +1,28 @@
-Meu Querido App – Componentes React Native
+Meu Querido App – Componentes React Native com Expo<br>
 
-Este é um projeto desenvolvido em React Native utilizando o Expo, com o objetivo de demonstrar o uso dos principais componentes nativos da tecnologia. O projeto faz parte de uma atividade prática da disciplina de Progamação de App, onde foi proposto criar uma aplicação funcional e organizada, com base no app “Hello” do tutorial inicial.
+Este é um projeto desenvolvido em React Native utilizando o Expo, com o objetivo de demonstrar o uso dos principais componentes nativos da tecnologia. O projeto faz parte de uma atividade prática da disciplina de Progamação de App, onde foi proposto criar uma aplicação funcional e organizada, com base no app “Hello” do tutorial inicial.<br>
 
-A aplicação inclui uma interface simples e moderna, com abas e navegação implementadas via expo-router. Em uma das abas, o usuário encontra exemplos reais de componentes como View, Text, TextInput, Modal, Button, Switch, FlatList, entre outros — todos integrados de forma visual, clara e interativa.
+A aplicação inclui uma interface simples e moderna, com abas e navegação implementadas via expo-router. Em uma das abas, o usuário encontra exemplos reais de componentes como View, Text, TextInput, Modal, Button, Switch, FlatList, entre outros — todos integrados de forma visual, clara e interativa.<br>
 
-🛠 Tecnologias Utilizadas
-✔ React Native (com Expo)
-✔ Typescript
-✔ Navegação com expo-router
-✔ Estilização com StyleSheet
-✔ Interface responsiva
+🛠 Tecnologias Utilizadas<br>
+✔ React Native (com Expo)<br>
+✔ Typescript<br>
+✔ Navegação com expo-router<br>
+✔ Estilização com StyleSheet<br>
+✔ Interface responsiva<br>
 
-📌 Funcionalidades Demonstradas
-✔ View e Text: Estrutura e exibição de textos
-✔ TextInput e Alert: Entrada de dados e alertas dinâmicos
-✔ Modal: Janelas de sobreposição para informações extras
-✔ Image: Exibição de imagem local
-✔ ActivityIndicator: Indicador visual de carregamento
-✔ FlatList e SectionList: Listagens organizadas e otimizadas
-✔ ScrollView: Rolagem de conteúdo longo
-✔ Switch: Controle de ativação/desativação
-✔ TouchableOpacity: Botões interativos com estilo
-✔ StatusBar: Customização da barra de status
-✔ SafeAreaView: Garantia de visualização adequada em todos os dispositivos
+📌 Funcionalidades Demonstradas<br>
+✔ View e Text: Estrutura e exibição de textos<br>
+✔ TextInput e Alert: Entrada de dados e alertas dinâmicos<br>
+✔ Modal: Janelas de sobreposição para informações extras<br>
+✔ Image: Exibição de imagem local<br>
+✔ ActivityIndicator: Indicador visual de carregamento<br>
+✔ FlatList e SectionList: Listagens organizadas e otimizadas<br>
+✔ ScrollView: Rolagem de conteúdo longo<br>
+✔ Switch: Controle de ativação/desativação<br>
+✔ TouchableOpacity: Botões interativos com estilo<br>
+✔ StatusBar: Customização da barra de status<br>
+✔ SafeAreaView: Garantia de visualização adequada em todos os dispositivos<br>
 
 📖 Minha Experiência
 Este projeto foi muito importante para consolidar meu conhecimento prático em React Native. Após seguir o tutorial “Hello React Native”, me senti motivado a expandir a aplicação, criando uma aba com todos os principais componentes que a tecnologia oferece.
@@ -47,8 +47,8 @@ Aqui vai uma explicação de todos os componentes utilizados:
 
 Exemplo:
 
-<View style={styles.card}>...</View>
-<View style={styles.modalView}>...</View>
+```<View style={styles.card}>...</View> -->```<br>
+```<View style={styles.modalView}>...</View>```
 
 📘 2. Text
 ✅ O que é: Componente utilizado para exibir textos.
@@ -59,8 +59,8 @@ Exemplo:
 
 Exemplo: 
 
-<Text style={styles.title}>Componentes do React Native</Text>
-<Text>Olá, este é um modal!</Text>
+```<Text style={styles.title}>Componentes do React Native</Text>```<br>
+```<Text>Olá, este é um modal!</Text>```
 
 📘 3. TextInput
 ✅ O que é: Um campo de texto que permite entrada do usuário.
@@ -71,11 +71,11 @@ Exemplo:
 
 Exemplo:
 
-<TextInput
-  placeholder="Digite algo..."
-  value={text}
-  onChangeText={setText}
-/>
+```<TextInput```<br>
+  ```  placeholder="Digite algo..."```<br>
+  ```  value={text}```<br>
+  ```  onChangeText={setText}```<br>
+```/>```
 
 📘 4. Button
 ✅ O que é: Um botão padrão e simples.
@@ -86,7 +86,7 @@ Exemplo:
 
 Exemplo:
 
-<Button title="Mostrar Alerta" onPress={...} />
+```<Button title="Mostrar Alerta" onPress={...} />```
 
 📘 5. Alert
 ✅ O que é: Um sistema de alerta/modal nativo do sistema operacional.
@@ -97,7 +97,7 @@ Exemplo:
 
 Exemplo: 
 
-Alert.alert('Alerta', `Você digitou: ${text}`)
+```Alert.alert('Alerta', `Você digitou: ${text}`)```
 
 📘 6. Image
 ✅ O que é: Componente para exibir imagens.
@@ -108,7 +108,7 @@ Alert.alert('Alerta', `Você digitou: ${text}`)
 
 Exemplo: 
 
-<Image source={require('@assets/Images/icon.png')} style={styles.image} />
+```<Image source={require('@assets/Images/icon.png')} style={styles.image} />```
 
 📘 7. Modal
 ✅ O que é: Uma janela de sobreposição (como um pop-up).
@@ -119,8 +119,8 @@ Exemplo:
 
 Exemplo: 
 
-<Modal visible={modalVisible} animationType="slide">
-  <View style={styles.modalView}>
+```<Modal visible={modalVisible} animationType="slide">```<br>
+  ```  <View style={styles.modalView}>```
 
 📘 8. ActivityIndicator
 ✅ O que é: Um "loader" ou indicador de carregamento.
@@ -131,7 +131,7 @@ Exemplo:
 
 Exemplo: 
 
-<ActivityIndicator size="large" color="#0000ff" />
+```<ActivityIndicator size="large" color="#0000ff" />```
 
 📘 9. FlatList
 ✅ O que é: Lista otimizada para rolagem vertical com muitos itens.
@@ -142,7 +142,7 @@ Exemplo:
 
 Exemplo: 
 
-<FlatList data={items} ... />
+```<FlatList data={items} ... />```
 
 📘 10. SafeAreaView
 ✅ O que é: Uma View que respeita as áreas seguras (notch, barra de status, etc).
@@ -153,7 +153,7 @@ Exemplo:
 
 Exemplo: 
 
-<SafeAreaView style={styles.container}>
+```<SafeAreaView style={styles.container}>```
 
 📘 11. ScrollView
 ✅ O que é: Container que permite rolagem vertical ou horizontal.
@@ -164,9 +164,9 @@ Exemplo:
 
 Exemplo:
 
-<ScrollView>
-  {/* conteúdo rolável */}
-</ScrollView>
+```<ScrollView>```<br>
+  ```  {/* conteúdo rolável */}```<br>
+```</ScrollView>```
 
 📘 12. SectionList
 ✅ O que é: Lista com agrupamento por seções e cabeçalhos.
@@ -177,7 +177,7 @@ Exemplo:
 
 Exemplo: 
 
-<SectionList sections={sections} ... />
+```<SectionList sections={sections} ... />```
 
 📘 13. StatusBar
 ✅ O que é: Permite controlar a aparência da barra de status do dispositivo.
@@ -188,7 +188,7 @@ Exemplo:
 
 Exemplo:
 
-<StatusBar barStyle="dark-content" />
+```<StatusBar barStyle="dark-content" />```
 
 📘 14. Switch
 ✅ O que é: Um botão de alternância (liga/desliga).
@@ -199,7 +199,7 @@ Exemplo:
 
 Exemplo: 
 
-<Switch value={switchOn} onValueChange={setSwitchOn} />
+```<Switch value={switchOn} onValueChange={setSwitchOn} />```
 
 📘 15. TouchableOpacity
 ✅ O que é: Um botão customizável com efeito de opacidade ao toque.
@@ -210,6 +210,6 @@ Exemplo:
 
 Exemplo: 
 
-<TouchableOpacity onPress={() => Alert.alert('Você tocou!')}>
-  <Text style={styles.touchableText}>Toque Aqui</Text>
-</TouchableOpacity>
+```<TouchableOpacity onPress={() => Alert.alert('Você tocou!')}>```<br>
+  ```  <Text style={styles.touchableText}>Toque Aqui</Text>```<br>
+```</TouchableOpacity>```
