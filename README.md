@@ -38,7 +38,7 @@ O código está disponível neste repositório, com comentários claros e estrut
 
 Aqui vai uma explicação de todos os componentes utilizados: 
 
-📘 1. View
+📘 1. View<br>
 ✅ O que é: Um dos componentes mais básicos do React Native. Ele representa uma área de layout para agrupar outros componentes.
 
 📌 Para que serve: Criar blocos de layout, como se fossem "divs" no HTML.
@@ -50,7 +50,7 @@ Exemplo:
 ```<View style={styles.card}>...</View> -->```<br>
 ```<View style={styles.modalView}>...</View>```
 
-📘 2. Text
+📘 2. Text<br>
 ✅ O que é: Componente utilizado para exibir textos.
 
 📌 Para que serve: Mostrar qualquer tipo de texto na tela (título, parágrafo, legenda, etc).
@@ -62,7 +62,7 @@ Exemplo:
 ```<Text style={styles.title}>Componentes do React Native</Text>```<br>
 ```<Text>Olá, este é um modal!</Text>```
 
-📘 3. TextInput
+📘 3. TextInput<br>
 ✅ O que é: Um campo de texto que permite entrada do usuário.
 
 📌 Para que serve: Capturar informações digitadas, como nome, senha, etc.
@@ -77,7 +77,7 @@ Exemplo:
   ```  onChangeText={setText}```<br>
 ```/>```
 
-📘 4. Button
+📘 4. Button<br>
 ✅ O que é: Um botão padrão e simples.
 
 📌 Para que serve: Executar ações, como abrir modal, exibir alerta, iniciar carregamento.
@@ -88,7 +88,7 @@ Exemplo:
 
 ```<Button title="Mostrar Alerta" onPress={...} />```
 
-📘 5. Alert
+📘 5. Alert<br>
 ✅ O que é: Um sistema de alerta/modal nativo do sistema operacional.
 
 📌 Para que serve: Exibir mensagens importantes ao usuário.
@@ -99,7 +99,7 @@ Exemplo:
 
 ```Alert.alert('Alerta', `Você digitou: ${text}`)```
 
-📘 6. Image
+📘 6. Image<br>
 ✅ O que é: Componente para exibir imagens.
 
 📌 Para que serve: Mostrar logos, fotos, banners, etc.
@@ -110,7 +110,7 @@ Exemplo:
 
 ```<Image source={require('@assets/Images/icon.png')} style={styles.image} />```
 
-📘 7. Modal
+📘 7. Modal<br>
 ✅ O que é: Uma janela de sobreposição (como um pop-up).
 
 📌 Para que serve: Mostrar informações secundárias ou interações extras.
@@ -122,7 +122,7 @@ Exemplo:
 ```<Modal visible={modalVisible} animationType="slide">```<br>
   ```  <View style={styles.modalView}>```
 
-📘 8. ActivityIndicator
+📘 8. ActivityIndicator<br>
 ✅ O que é: Um "loader" ou indicador de carregamento.
 
 📌 Para que serve: Mostrar que uma ação está sendo processada.
@@ -133,7 +133,7 @@ Exemplo:
 
 ```<ActivityIndicator size="large" color="#0000ff" />```
 
-📘 9. FlatList
+📘 9. FlatList<br>
 ✅ O que é: Lista otimizada para rolagem vertical com muitos itens.
 
 📌 Para que serve: Exibir dados em lista, como cards de produtos ou posts.
@@ -144,7 +144,7 @@ Exemplo:
 
 ```<FlatList data={items} ... />```
 
-📘 10. SafeAreaView
+📘 10. SafeAreaView<br>
 ✅ O que é: Uma View que respeita as áreas seguras (notch, barra de status, etc).
 
 📌 Para que serve: Evitar que conteúdo fique por baixo de elementos do sistema.
@@ -155,7 +155,7 @@ Exemplo:
 
 ```<SafeAreaView style={styles.container}>```
 
-📘 11. ScrollView
+📘 11. ScrollView<br>
 ✅ O que é: Container que permite rolagem vertical ou horizontal.
 
 📌 Para que serve: Colocar conteúdo que pode ultrapassar a altura da tela.
@@ -168,7 +168,7 @@ Exemplo:
   ```  {/* conteúdo rolável */}```<br>
 ```</ScrollView>```
 
-📘 12. SectionList
+📘 12. SectionList<br>
 ✅ O que é: Lista com agrupamento por seções e cabeçalhos.
 
 📌 Para que serve: Exibir dados com categorias, como “A-Z” ou “Hoje / Ontem”.
@@ -179,7 +179,7 @@ Exemplo:
 
 ```<SectionList sections={sections} ... />```
 
-📘 13. StatusBar
+📘 13. StatusBar<br>
 ✅ O que é: Permite controlar a aparência da barra de status do dispositivo.
 
 📌 Para que serve: Mudar cor do texto, fundo, e estilo da barra superior.
@@ -190,7 +190,7 @@ Exemplo:
 
 ```<StatusBar barStyle="dark-content" />```
 
-📘 14. Switch
+📘 14. Switch<br>
 ✅ O que é: Um botão de alternância (liga/desliga).
 
 📌 Para que serve: Usado em configurações e preferências.
@@ -201,7 +201,7 @@ Exemplo:
 
 ```<Switch value={switchOn} onValueChange={setSwitchOn} />```
 
-📘 15. TouchableOpacity
+📘 15. TouchableOpacity<br>
 ✅ O que é: Um botão customizável com efeito de opacidade ao toque.
 
 📌 Para que serve: Criar botões estilizados ou interações mais visuais.
