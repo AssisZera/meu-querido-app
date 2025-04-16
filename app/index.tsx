@@ -19,7 +19,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
-export default function ComponentsScreen() {
+export default function HomeScreen() {
   const [text, setText] = useState('');
   const [modalVisible, setModalVisible] = useState(false);
   const [switchOn, setSwitchOn] = useState(false);
@@ -34,11 +34,10 @@ export default function ComponentsScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="dark-content" />
-
       <ScrollView showsVerticalScrollIndicator={false}>
         <Text style={styles.title}>Componentes do React Native</Text>
 
-        {/* CARD: TextInput + Alert */}
+        {/* TEXTINPUT + ALERT */}
         <View style={styles.card}>
           <Text style={styles.cardTitle}>
             <Ionicons name="text" size={20} /> TextInput + Alert
@@ -52,7 +51,7 @@ export default function ComponentsScreen() {
           <Button title="Mostrar Alerta" onPress={() => Alert.alert('Alerta', `Você digitou: ${text}`)} />
         </View>
 
-        {/* CARD: Imagem */}
+        {/* IMAGEM */}
         <View style={styles.card}>
           <Text style={styles.cardTitle}>
             <Ionicons name="image" size={20} /> Image
@@ -60,7 +59,7 @@ export default function ComponentsScreen() {
           <Image source={require('@/assets/images/icon.png')} style={styles.image} />
         </View>
 
-        {/* CARD: Modal */}
+        {/* MODAL */}
         <View style={styles.card}>
           <Text style={styles.cardTitle}>
             <Ionicons name="albums" size={20} /> Modal
@@ -76,7 +75,7 @@ export default function ComponentsScreen() {
           </Modal>
         </View>
 
-        {/* CARD: Loader */}
+        {/* ACTIVITY INDICATOR */}
         <View style={styles.card}>
           <Text style={styles.cardTitle}>
             <Ionicons name="refresh-circle" size={20} /> ActivityIndicator
@@ -85,7 +84,7 @@ export default function ComponentsScreen() {
           {loading && <ActivityIndicator size="large" color="#007AFF" style={{ marginTop: 10 }} />}
         </View>
 
-        {/* CARD: FlatList */}
+        {/* FLATLIST */}
         <View style={styles.card}>
           <Text style={styles.cardTitle}>
             <Ionicons name="list" size={20} /> FlatList
@@ -98,7 +97,7 @@ export default function ComponentsScreen() {
           />
         </View>
 
-        {/* CARD: SectionList */}
+        {/* SECTIONLIST */}
         <View style={styles.card}>
           <Text style={styles.cardTitle}>
             <Ionicons name="list-circle" size={20} /> SectionList
@@ -114,7 +113,7 @@ export default function ComponentsScreen() {
           />
         </View>
 
-        {/* CARD: Switch */}
+        {/* SWITCH */}
         <View style={styles.card}>
           <Text style={styles.cardTitle}>
             <Ionicons name="toggle" size={20} /> Switch
@@ -125,7 +124,7 @@ export default function ComponentsScreen() {
           </View>
         </View>
 
-        {/* CARD: TouchableOpacity */}
+        {/* TOUCHABLEOPACITY */}
         <View style={styles.card}>
           <Text style={styles.cardTitle}>
             <Ionicons name="hand-left" size={20} /> TouchableOpacity

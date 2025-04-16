@@ -1,4 +1,4 @@
-Meu Querido App – Componentes React Native com Expo
+Meu Querido App – Componentes React Native
 
 Este é um projeto desenvolvido em React Native utilizando o Expo, com o objetivo de demonstrar o uso dos principais componentes nativos da tecnologia. O projeto faz parte de uma atividade prática da disciplina de Progamação de App, onde foi proposto criar uma aplicação funcional e organizada, com base no app “Hello” do tutorial inicial.
 
